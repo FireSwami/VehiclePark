@@ -33,6 +33,7 @@ Also added sorting for comfortable view DBs elements.
   for the convenience of filling and maintaining the database
   (you must create and use own username, password; use ***SETUP*** instructions.)
 
+
 + Sorting and formatting by ***flake8 / black / isort*** 
   were applied to improve the code quality. If you need install it try:
   

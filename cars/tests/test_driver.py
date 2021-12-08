@@ -88,3 +88,6 @@ class DriverTestCases(APITestCase):
         self.assertEqual(status.HTTP_200_OK, response.status_code)
         self.assertEqual(response.json().get("first_name"), "fname3")
         self.assertEqual(response.json().get("last_name"), "lname3")
+
+    def test_driver_str(self):
+        self.assertEqual(str(self.driver_1), "lname1 (FNAME1)")

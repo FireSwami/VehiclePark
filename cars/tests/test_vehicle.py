@@ -171,3 +171,6 @@ class VehicleTestCases(APITestCase):
         self.assertEqual(
             serializer_data.data[2].get("driver"), response.json()[2].get("driver")
         )
+
+    def test_vehicle_str(self):
+        self.assertEqual(str(self.vehicle_1), "test_brand")

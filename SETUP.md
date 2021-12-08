@@ -38,4 +38,4 @@
 
 9. Go to **[localhost](http://127.0.0.1:8000/swagger/)** 
     (for default) and get info from swagger
-     - *Also you can use direct links from task.*
+     - *Also you can use direct links from task (more in ***README)***.*

@@ -8,7 +8,7 @@ class DriverSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Driver
-        fields = ("first_name", "last_name")
+        fields = ("first_name", "last_name", "id")
         # in case of all information need
         # fields = ('__all__')
 
