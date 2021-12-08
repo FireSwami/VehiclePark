@@ -1,0 +1,232 @@
+[
+{
+  "model": "cars.driver",
+  "pk": 4,
+  "fields": {
+    "created_at": "2021-11-28T16:00:10.364Z",
+    "updated_at": "2021-11-28T16:00:10.364Z",
+    "first_name": "Ivan",
+    "last_name": "Ivanov"
+  }
+},
+{
+  "model": "cars.driver",
+  "pk": 5,
+  "fields": {
+    "created_at": "2021-11-28T16:00:20.191Z",
+    "updated_at": "2021-11-28T16:00:20.191Z",
+    "first_name": "Sidor",
+    "last_name": "Petrov"
+  }
+},
+{
+  "model": "cars.driver",
+  "pk": 6,
+  "fields": {
+    "created_at": "2021-09-01T12:10:23Z",
+    "updated_at": "2021-11-28T18:12:30.827Z",
+    "first_name": "John",
+    "last_name": "Smith"
+  }
+},
+{
+  "model": "cars.driver",
+  "pk": 7,
+  "fields": {
+    "created_at": "2021-11-02T18:23:02Z",
+    "updated_at": "2021-11-28T18:13:26.136Z",
+    "first_name": "Sebastian",
+    "last_name": "Morro"
+  }
+},
+{
+  "model": "cars.driver",
+  "pk": 8,
+  "fields": {
+    "created_at": "2021-10-13T08:25:56Z",
+    "updated_at": "2021-11-28T18:14:05.062Z",
+    "first_name": "Jane",
+    "last_name": "Ostin"
+  }
+},
+{
+  "model": "cars.driver",
+  "pk": 9,
+  "fields": {
+    "created_at": "2021-11-12T10:20:00Z",
+    "updated_at": "2021-11-28T18:15:45.238Z",
+    "first_name": "Mark",
+    "last_name": "Tsykerberg"
+  }
+},
+{
+  "model": "cars.driver",
+  "pk": 10,
+  "fields": {
+    "created_at": "2021-11-15T07:47:20Z",
+    "updated_at": "2021-11-28T18:16:16.130Z",
+    "first_name": "Pavel",
+    "last_name": "Durov"
+  }
+},
+{
+  "model": "cars.driver",
+  "pk": 11,
+  "fields": {
+    "created_at": "2021-11-18T15:30:03Z",
+    "updated_at": "2021-11-28T18:20:56.584Z",
+    "first_name": "Klaus",
+    "last_name": "Still"
+  }
+},
+{
+  "model": "cars.driver",
+  "pk": 12,
+  "fields": {
+    "created_at": "2021-11-25T14:32:15Z",
+    "updated_at": "2021-11-28T18:21:55.536Z",
+    "first_name": "Antonio",
+    "last_name": "Banderas"
+  }
+},
+{
+  "model": "cars.driver",
+  "pk": 13,
+  "fields": {
+    "created_at": "2021-11-27T19:07:40Z",
+    "updated_at": "2021-11-28T18:25:04.367Z",
+    "first_name": "Thomas",
+    "last_name": "Bergersen"
+  }
+},
+{
+  "model": "cars.driver",
+  "pk": 14,
+  "fields": {
+    "created_at": "2021-11-29T17:26:12.447Z",
+    "updated_at": "2021-11-29T17:26:12.447Z",
+    "first_name": "Jaime",
+    "last_name": "Lanister"
+  }
+},
+{
+  "model": "cars.vehicle",
+  "pk": 4,
+  "fields": {
+    "created_at": "2021-11-28T16:00:32.851Z",
+    "updated_at": "2021-11-28T16:04:00.101Z",
+    "driver_id": 4,
+    "make": "Opel",
+    "model": "Corsa",
+    "plate_number": "RR 1234 GG"
+  }
+},
+{
+  "model": "cars.vehicle",
+  "pk": 5,
+  "fields": {
+    "created_at": "2021-11-28T16:00:42.023Z",
+    "updated_at": "2021-11-28T16:03:46.982Z",
+    "driver_id": 5,
+    "make": "Toyota",
+    "model": "Camry",
+    "plate_number": "SS 2345 TT"
+  }
+},
+{
+  "model": "cars.vehicle",
+  "pk": 6,
+  "fields": {
+    "created_at": "2021-11-28T16:01:08.046Z",
+    "updated_at": "2021-11-28T16:03:27.767Z",
+    "driver_id": 4,
+    "make": "Lada",
+    "model": "Priora",
+    "plate_number": "AA 1234 OO"
+  }
+},
+{
+  "model": "cars.vehicle",
+  "pk": 7,
+  "fields": {
+    "created_at": "2021-11-28T18:35:11.770Z",
+    "updated_at": "2021-11-28T18:35:11.770Z",
+    "driver_id": 12,
+    "make": "Opel",
+    "model": "Combo",
+    "plate_number": "DD 1256 TR"
+  }
+},
+{
+  "model": "cars.vehicle",
+  "pk": 8,
+  "fields": {
+    "created_at": "2021-11-28T18:35:52.429Z",
+    "updated_at": "2021-11-28T18:35:52.429Z",
+    "driver_id": 8,
+    "make": "Audi",
+    "model": "A3",
+    "plate_number": "JJ 8796 MN"
+  }
+},
+{
+  "model": "cars.vehicle",
+  "pk": 9,
+  "fields": {
+    "created_at": "2021-11-28T18:36:23.777Z",
+    "updated_at": "2021-11-28T18:36:23.777Z",
+    "driver_id": 6,
+    "make": "Mitsubishi",
+    "model": "Pajero Sport",
+    "plate_number": "QQ 9230 OO"
+  }
+},
+{
+  "model": "cars.vehicle",
+  "pk": 10,
+  "fields": {
+    "created_at": "2021-11-28T18:37:04.353Z",
+    "updated_at": "2021-11-28T18:37:04.353Z",
+    "driver_id": 11,
+    "make": "Chery",
+    "model": "CheryExeed TXL",
+    "plate_number": "FG 5620 OO"
+  }
+},
+{
+  "model": "cars.vehicle",
+  "pk": 11,
+  "fields": {
+    "created_at": "2021-11-28T18:37:46.088Z",
+    "updated_at": "2021-11-28T18:37:46.088Z",
+    "driver_id": 9,
+    "make": "Hyundai",
+    "model": "Elantra",
+    "plate_number": "JJ 7730 KL"
+  }
+},
+{
+  "model": "cars.vehicle",
+  "pk": 12,
+  "fields": {
+    "created_at": "2021-11-28T18:43:33.381Z",
+    "updated_at": "2021-11-28T22:56:03.334Z",
+    "driver_id": 10,
+    "make": "Rolls-Royce",
+    "model": "Cullinan",
+    "plate_number": "SS 8888 PO"
+  }
+},
+{
+  "model": "cars.vehicle",
+  "pk": 13,
+  "fields": {
+    "created_at": "2021-11-28T18:44:32.829Z",
+    "updated_at": "2021-11-28T18:44:32.829Z",
+    "driver_id": null,
+    "make": "Volkswagen",
+    "model": "Taos",
+    "plate_number": "DF 0000 LL"
+  }
+}
+]
