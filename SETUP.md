@@ -27,7 +27,7 @@
    - *if you need create dump:* 
     >###### *python manage.py dumpdata cars.driver cars.vehicle --indent 2 > db.json*
 
-7. Great superuser if you need: 
+7. Creat superuser if you need: 
 
     >#### python manage.py createsuperuser
 
